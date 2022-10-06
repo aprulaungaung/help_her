@@ -43,7 +43,7 @@ let lengthOfCurrentNumber = counter(number);
 $(document).click(function(){
   let number = Math.random() * 6;
   number = Math.floor(number) + 1;
-number = 1;
+number = 6;
   switch (number) {
     //  when random number is 1, creator1 function will work and if same number is generated at the next Click, the page will be reloaded instead of calling the function again.
 
@@ -274,8 +274,6 @@ function creator3(){
 
   $("body").append("<img class='girl2' src='images/girl2.PNG'>");
 
-  $(".girl2").css({"top":"250px","left":"0","animation":"none"});
-
   $("body").append("<div class='black-cover'></div>");
 
   strong_wind.volume = 0.2;
@@ -330,8 +328,6 @@ function creator4(){
   impact2.play();
 
   $("body").append("<img class='heat2' src='images/heat.PNG'>");
-
-  $(".heat2").css({"animation":"none","height":"350px","position":"absolute","top":"400px","left":"350px"});
 
 },3000);
 

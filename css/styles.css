@@ -79,6 +79,13 @@ mix-blend-mode:luminosity;
 .heat1 {
   left: 350px;
 }
+
+.heat2{
+  position: absolute;
+  top: 400px;
+  height: 350px;
+  left: 350px;
+}
 .bed {
   left: 450px;
 }
@@ -382,8 +389,102 @@ mix-blend-mode:luminosity;
   .girl2{
     position: absolute;
     height: 300px;
-    top: 470px;
+    top: 450px;
     left: 0;
 
+  }
+  .broken-glass {
+    position: absolute;
+    height: 320px;
+    width: 250px;
+    left: 55%;
+    top: 320px;
+
+  }
+  .vapour {
+    height: 100px;
+    left: 80%;
+    top: 400px;
+
+  }
+
+  .eatingGirl {
+    position: absolute;
+    height: 200px;
+    top: 450px;
+    left: 10%;
+  }
+  .table {
+    position: absolute;
+    height: 200px;
+    top: 700px;
+    left: 0;
+  }
+  .food2{
+    position: absolute;
+    height: 80px;
+    left: 100px;
+  }
+  .heat2{
+    left: 300px;
+  }
+  .girl3{
+
+    height: 300px;
+    top: 370px;
+    left: 10px;
+    transform: rotate(15deg);
+
+  }
+  .bed2{
+    position: absolute;
+    height: 400px;
+    left: 70px;
+    transform: scale3d(-1.5,0.8,1);
+
+  }
+
+  .fridge {
+    left: -100px;
+    top: 350px;
+    height: 400px;
+    transform: scaleX(-1);
+  }
+  .sofa {
+    right: -150px;
+
+    top: 500px;
+    height: 300px;
+  }
+  .stand {
+    right: 150px;
+    top: 600px;
+    height: 150px;
+    z-index: 1;
+  }
+  .flower {
+    height: 150px;
+    right: 180px;
+    top:100px;
+    z-index: 1;
+    visibility: hidden;
+  }
+  .gliter {
+    position: absolute;
+    height: 20px;
+    left: 78%;
+    top: 300px;
+    opacity: 0.5;
+    z-index: -1;
+    animation: gliterMove 3s linear;
+  }
+  .thankYou {
+    position: absolute;
+    font-family: 'Alex Brush', cursive;
+    font-size: 30px;
+    color: #FF577F;
+    left: 50%;
+    top: 100px;
+    animation: thanksMove 7s linear;
   }
 }
