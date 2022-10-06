@@ -1,0 +1,342 @@
+body{
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/rain.GIF");
+  background-repeat: no-repeat;
+  background-size:100% 100vh;
+}
+.aung {
+  position: absolute;
+  height: 100px;
+  margin: 30px;
+  opacity: 0.5;
+}
+ .walking-girl {
+  position: absolute;
+  height: 350px;
+  top: 250px;
+  left: 30%;
+}
+.walking-girl{
+  opacity: 0.5;
+  border-radius: 100%;
+mix-blend-mode:luminosity;
+}
+.girl1, .girl2, .girl3 {
+  height: 500px;
+}
+.girl2{
+  position: absolute;
+  top: 300px;
+  left: 2%;
+  animation: shivering 1s linear infinite;
+}
+.girl3{
+  position: absolute;
+  height: 400px;
+  top: 300px;
+  left: 10px;
+  transform: rotate(15deg);
+  visibility: hidden;
+}
+.cloth, .food, .heat1,.bed {
+  position: absolute;
+  top: 100px;
+  height: 150px;
+  animation: shake 5s linear infinite;
+}
+
+.text {
+  position: absolute;
+  top: 30px;
+  font-size: 30px;
+  left: 50px;
+  color: yellow;
+}
+
+.cloth {
+  left: 50px;
+}
+.cloth2{
+  position: absolute;
+  height: 250px;
+  left: 130px;
+
+}
+.food {
+  top: 130px;
+  height: 80px;
+  left: 200px;
+}
+.food2{
+  position: absolute;
+  height: 80px;
+  left: 150px;
+}
+.heat1 {
+  left: 350px;
+}
+.bed {
+  left: 450px;
+}
+.bed2{
+  position: absolute;
+  height: 400px;
+  left: 200px;
+  transform: scale3d(-2.5,0.8,1);
+
+}
+.broken-glass {
+  position: absolute;
+  height: 320px;
+  width: 350px;
+  left: 55%;
+  top: 320px;
+  mix-blend-mode:color-burn;
+}
+.vapour {
+  position: absolute;
+  height: 100px;
+  left: 68%;
+  top: 400px;
+  opacity: 0.4;
+  animation: vapourMove 2s linear infinite;
+}
+.black-cover{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.eatingGirl {
+  position: absolute;
+  height: 250px;
+  top: 400px;
+  left: 5%;
+}
+.table {
+  position: absolute;
+  height: 200px;
+  top: 700px;
+  left: 3%;
+}
+.start{
+  position: absolute;
+  font-size: 30px;
+  top: 120px;
+  color: yellow;
+
+}
+
+.smilingGirl1{
+  position: absolute;
+  height: 400px;
+  right: 180px;
+  top: 200px;
+  mix-blend-mode:color-dodge;
+}
+
+.smilingGirl{
+  position: absolute;
+  height: 400px;
+  right: 180px;
+  top: 200px;
+  visibility: hidden;
+
+}
+.fridge, .stand, .flower, .sofa {
+  position: absolute;
+  height: 300px;
+  visibility: hidden;
+}
+.fridge {
+  left: -150px;
+  top: 150px;
+  height: 600px;
+  transform: scaleX(-1);
+}
+.sofa {
+  right: -100px;
+
+  top: 360px;
+  height: 500px;
+}
+.stand {
+  right: 600px;
+  top: 520px;
+  height: 250px;
+}
+.flower {
+  height: 200px;
+  right: 660px;
+  top:0;
+  visibility: hidden;
+}
+.gliter {
+  position: absolute;
+  height: 20px;
+  left: 78%;
+  top: 300px;
+  opacity: 0.5;
+  z-index: -1;
+  animation: gliterMove 3s linear;
+}
+.thankYou {
+  position: absolute;
+  font-family: 'Alex Brush', cursive;
+  font-size: 30px;
+  color: #FF577F;
+  left: 50%;
+  top: 100px;
+  animation: thanksMove 7s linear;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-5deg); }
+  20% { transform: translate(-3px, 0px) rotate(5deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(5deg); }
+  50% { transform: translate(-1px, 2px) rotate(-5deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-5deg); }
+  80% { transform: translate(-1px, -1px) rotate(5deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-5deg); }
+}
+
+@keyframes walk {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  5% { transform: translate(10px, -2px) rotate(-5deg); }
+  10% { transform: translate(20px, 0px) rotate(0deg); }
+  15% { transform: translate(30px, -2px) rotate(-5deg); }
+  20% { transform: translate(40px, 0px) rotate(0deg); }
+  25% { transform: translate(50px, -2px) rotate(-5deg); }
+  30% { transform: translate(60px, 0px) rotate(0deg); }
+  35% { transform: translate(70px, -2px) rotate(-5deg); }
+  40% { transform: translate(80px, 0px) rotate(0deg); }
+  45% { transform: translate(90px, -2px) rotate(-5deg); }
+  50% { transform: translate(100px, 0px) rotate(0deg); }
+  55% { transform: translate(110px, -2px) rotate(-5deg); }
+  60% { transform: translate(120px, 0px) rotate(0deg); }
+  65% { transform: translate(130px, -2px) rotate(-5deg); }
+  70% { transform: translate(140px, 0px) rotate(0deg); }
+  75% { transform: translate(150px, -2px) rotate(-5deg); }
+  80% { transform: translate(160px, 0px) rotate(0deg); }
+  85% { transform: translate(170px, -2px) rotate(-5deg); }
+  90% { transform: translate(180px, 0px) rotate(0deg); }
+  95% { transform: translate(190px, -2px) rotate(-5deg); }
+  100% { transform: translate(200px, -0px) rotate(0deg); }
+
+}
+
+@keyframes vapourMove {
+  0% {
+    transform: scale(10);
+  }
+  50%{
+    transform: scale(50);
+  }
+  60%{
+  transform: scale(30);
+  }
+  70%{
+  transform: scale(50);
+  }
+  80%{
+  transform: scale(55);
+  }
+  90%{
+  transform: scale(50);
+  }
+  100%{
+  transform: scale(55);
+  }
+}
+
+@keyframes shivering {
+  0%{
+    transform: rotate(1deg)
+  }
+  10%{
+    transform: rotate(-1deg)
+  }
+  20%{
+    transform: rotate(1deg)
+  }
+  30%{
+    transform: rotate(-1deg)
+  }
+  40%{
+    transform: rotate(1deg)
+  }
+  50%{
+    transform: rotate(-1deg)
+  }
+  60%{
+    transform: rotate(1deg)
+  }
+  70%{
+    transform: rotate(-1deg)
+  }
+  80%{
+    transform: rotate(1deg)
+  }
+  90%{
+    transform: rotate(-1deg)
+  }
+  100%{
+    transform: rotate(1deg)
+  }
+}
+
+@keyframes waterMove {
+  0% {
+    transform: scaleY(2);
+  }
+  50%{
+    transform: scaleY(3);
+  }
+  60%{
+  transform: scaleY(3);
+  }
+  70%{
+  transform: scaleY(2);
+  }
+  80%{
+  transform: scaleY(3);
+  }
+  90%{
+  transform: scaleY(3);
+  }
+  100%{
+  transform: scaleY(2);
+  }
+}
+
+@keyframes gliterMove{
+  0%{
+    transform: scale3d(0);
+  }
+  100%{
+    transform: scale3d(30, 35, 1);
+  }
+}
+
+@keyframes thanksMove{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(3);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
