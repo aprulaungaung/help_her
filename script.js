@@ -248,7 +248,7 @@ function creator2(){
 
 function creator3(){
 
-  $(".start").hide();
+$(".start").hide();
 
   crying1.loop = true;
 
