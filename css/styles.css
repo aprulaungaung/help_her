@@ -389,7 +389,7 @@ mix-blend-mode:luminosity;
   .girl2{
     position: absolute;
     height: 300px;
-    top: 450px;
+    top: 470px;
     left: 0;
 
   }
@@ -472,19 +472,34 @@ mix-blend-mode:luminosity;
   .gliter {
     position: absolute;
     height: 20px;
-    left: 78%;
-    top: 300px;
-    opacity: 0.5;
-    z-index: -1;
-    animation: gliterMove 3s linear;
+    left: 70%;
+    top: 450px;
+
   }
   .thankYou {
     position: absolute;
     font-family: 'Alex Brush', cursive;
-    font-size: 30px;
+    font-size: 20px;
     color: #FF577F;
-    left: 50%;
+    left: 35%;
     top: 100px;
     animation: thanksMove 7s linear;
+  }
+
+  .smilingGirl1{
+    position: absolute;
+    height: 250px;
+    right: 50px;
+    top: 400px;
+
+  }
+
+  .smilingGirl{
+    position: absolute;
+    height: 250px;
+    right: 50px;
+    top: 400px;
+
+
   }
 }
