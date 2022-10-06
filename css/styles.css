@@ -340,3 +340,50 @@ mix-blend-mode:luminosity;
     transform: scale(1);
   }
 }
+
+@media (max-width: 600px){
+  .aung{
+    height: 80px;
+    margin: 20px;
+  }
+  .start {
+    font-size: 20px;
+    left: 20px;
+  }
+  .walking-girl{
+    height: 250px;
+    top: 300px;
+    left: 20%;
+  }
+  .text {
+    position: absolute;
+    top: 30px;
+    font-size: 20px;
+    left: 20px;
+    color: yellow;
+  }
+  .cloth {
+    height: 120px;
+    left: 20px;
+  }
+  .food {
+    top: 130px;
+    height: 70px;
+    left: 130px;
+  }
+  .heat1 {
+    height: 120px;
+    left: 250px;
+  }
+  .bed {
+    top: 80px;
+    left: 350px;
+  }
+  .girl2{
+    position: absolute;
+    height: 300px;
+    top: 470px;
+    left: 0;
+
+  }
+}

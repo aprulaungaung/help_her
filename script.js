@@ -43,7 +43,7 @@ let lengthOfCurrentNumber = counter(number);
 $(document).click(function(){
   let number = Math.random() * 6;
   number = Math.floor(number) + 1;
-
+number = 1;
   switch (number) {
     //  when random number is 1, creator1 function will work and if same number is generated at the next Click, the page will be reloaded instead of calling the function again.
 
@@ -139,7 +139,7 @@ $(document).click(function(){
    }else {
 
   location.reload();
-  
+
   }
 
     break;
