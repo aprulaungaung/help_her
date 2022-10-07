@@ -510,8 +510,9 @@ mix-blend-mode:luminosity;
   }
 }
 
-@media (max-width: 900px){
+@media screen and (max-width: 500px){
 
+  
   .aung{
     height: 80px;
     margin: 20px;
